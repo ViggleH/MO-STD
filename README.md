@@ -55,12 +55,6 @@ lensType = 'aspheric';
 savePath = 'plots/design1.png';
 
 SolidTankPlot(x, gelIndex, lensType, savePath);
-
-% This will:
-% 1) Run a low‑fidelity (50 rays) simulation for quick ray paths
-% 2) Run a high‑fidelity (100,000 rays) simulation for accurate metrics
-% 3) Compute effRad, intensityCV, and tau
-% 4) Save a combined plot of geometry, ray paths, and metrics
 ```
 
 ---
